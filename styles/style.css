@@ -12,6 +12,21 @@
     --highlight: #FF5C8D; /* A subtle but vibrant accent color */
 }
 
+/* Font */
+.lighter {
+    color: var(--accent-blue);
+    text-shadow: 1px 1px var(--light-grey);
+}
+.light {
+    color: var(--off-white);
+}
+.sub-text {
+    font-size: 14px;
+}
+.standout {
+    color: var(--highlight);
+    font-weight: 800;
+}
 * {
     box-sizing: border-box;
     /* border: 1px solid green; */
@@ -28,14 +43,13 @@ body {
 }
 /* reusable containers */
 
-header .wrapper,
-.hero .wrapper {
+header > .wrapper,
+.hero > .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 800px;
 }
 /* Header  */
 header {
@@ -44,7 +58,7 @@ header {
     /* layout */
     display: flex;
     justify-content: space-around;
-    padding: 12px;
+    padding: 16px;
 }
 .header-logo {
     color: var(--light-grey);
@@ -53,6 +67,7 @@ header {
 }
 .storm {
     color: var(--primary-blue);
+    font-weight: 800;
 }
 
 /* Nav */
@@ -83,8 +98,28 @@ header ul li:hover {
 
 /* Hero */
 img {
-    width: 350px;
+    border-radius: 8px;
+    width: 360px;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 0;
+}
+.hero * {
+    /* border: 1px solid green; */
 }
 .hero {
-    border: 1px solid green;
+    background-color: var(--dark-blue);
+    /* layout */
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.cta {
+    flex: 0 1 300px;
+    padding: 16px;
+    gap: 12px;
+}
+.cta button {
+    border: none;
+    background: none;
 }
