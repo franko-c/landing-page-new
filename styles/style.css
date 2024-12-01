@@ -13,6 +13,10 @@
 }
 
 /* Font */
+h1 {
+    padding: 0;
+    margin-bottom: -16px;
+}
 .lighter {
     color: var(--accent-blue);
     text-shadow: 1px 1px var(--light-grey);
@@ -46,7 +50,7 @@ header > .wrapper,
 .hero > .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -57,7 +61,6 @@ header {
     background-color: var(--dark-blue);
     /* layout */
     display: flex;
-    justify-content: space-around;
     padding: 16px;
 }
 .header-logo {
@@ -99,7 +102,7 @@ header ul li:hover {
 /* Hero */
 img {
     border-radius: 8px;
-    width: 360px;
+    width: 340px;
     padding: 0;
     /* margin: 0 auto; */
     line-height: 0;
@@ -110,20 +113,27 @@ img {
 .hero {
     background-color: var(--dark-blue);
     /* layout */
-    padding-bottom: 32px;
-    display: flex;
+    padding-bottom: 52px;
+}
+.hero .wrapper {
+    flex-flow: row wrap-reverse;
+}
+.lyrical {
+    max-width: 400px;
 }
 .cta {
-    flex: 0 1 300px;
+    flex: 0 1 400px;
     padding: 16px;
     gap: 12px;
+
 }
-.cta button {
+.cta > button {
     border: none;
     background-color: var(--secondary-blue);
     color: var(--off-white);
     padding: 8px 16px;
     border-radius: 6px;
+    margin-top: 12px;
     /* font */
     font-family: monospace;
     font-weight: 800;
