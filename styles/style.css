@@ -27,12 +27,18 @@ body {
     margin: 0;
 }
 /* Header  */
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+}
 header {
     /* design */
     background-color: var(--dark-blue);
     /* layout */
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: 12px;
 }
