@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border: 1px solid green;
 }
 
 /* Body */
@@ -9,8 +10,19 @@ body {
     margin: 0;
 }
 /* Header  */
-.header {
+header {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header-logo {
+    /* margin-right: auto; */
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
 }
 /* Nav */
 
