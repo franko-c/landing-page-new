@@ -26,14 +26,18 @@ body {
     padding: 0;
     margin: 0;
 }
-/* Header  */
-header .wrapper {
+/* reusable containers */
+
+header .wrapper,
+.hero .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+/* Header  */
 header {
     /* design */
     background-color: var(--dark-blue);
@@ -50,6 +54,8 @@ header {
 .storm {
     color: var(--primary-blue);
 }
+
+/* Nav */
 header ul {
     /* aesthetic */
     color: var(--off-white);
@@ -74,10 +80,11 @@ header ul li:hover {
 .active:hover {
     transform: scale(1.1);
 }
-/* Nav */
 
 /* Hero */
-
 img {
     width: 350px;
+}
+.hero {
+    border: 1px solid green;
 }
