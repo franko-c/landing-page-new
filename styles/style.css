@@ -226,7 +226,7 @@ main {
     margin-bottom: 52px;
 }
 .info-box {
-    border: 2px solid var(--dark-blue);
+    border: 2px solid var(--accent-blue);
     border-radius: 12px;
     /* layout */
     display: flex;
@@ -234,7 +234,7 @@ main {
     align-items: center;
     justify-content: baseline;
     height: 240px;
-    width: 280px;
+    width: 300px;
 }
 
 .boxes-wrapper, .info-box > * {
@@ -253,6 +253,8 @@ main {
     padding: 36px;
 }
 .testimonial > h5 {
+        padding: 0;
+        margin: 8px;
         /* font */
         font-size: 28px;
         font-weight: 100;
