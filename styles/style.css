@@ -180,9 +180,6 @@ img {
     /* margin: 0 auto; */
     line-height: 0;
 }
-.hero * {
-    /* border: 1px solid green; */
-}
 .hero {
     background-color: var(--dark-blue);
     /* layout */
@@ -197,7 +194,10 @@ img {
 .cta {
     flex: 0 1 400px;
     padding: 16px;
-    gap: 12px;
+    /* gap: 12px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 button {
     border: none;
@@ -209,6 +209,7 @@ button {
     /* font */
     font-family: monospace;
     font-weight: 800;
+    align-self: center;
 }
 
 /* Info boxes */
@@ -281,8 +282,9 @@ aside {
     background-color: var(--accent-blue);
     border-radius: 32px;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     padding: 26px;
+    flex-flow: wrap row;
 }
 h6 {
     color: var(--light-grey);
@@ -295,6 +297,7 @@ h6 {
     max-width: 400px;
 }
 
+/* footer */
 footer {
     display: flex;
     justify-content: center;
