@@ -126,14 +126,13 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     flex-wrap: wrap;
-    gap: 16px; /* Added consistent spacing between items */
+    gap: 16px;
 }
 /* Header  */
 header {
     /* design */
     background-color: var(--dark-blue);
     /* layout */
-    display: flex;
     padding: 16px;
 }
 .header-logo {
@@ -192,12 +191,11 @@ img {
     max-width: 400px;
 }
 .cta {
-    flex: 0 1 420px;
+    /* flex: 0 1 420px; */
     padding: 16px;
     /* gap: 12px; */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 button {
     border: none;
@@ -209,7 +207,7 @@ button {
     /* font */
     font-family: monospace;
     font-weight: 800;
-    align-self: center;
+    align-self: flex-start;
 }
 
 /* Info boxes */
