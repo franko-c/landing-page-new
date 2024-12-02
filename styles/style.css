@@ -241,3 +241,23 @@ main {
     /* visual aid */
     /* border: 1px solid green; */
 }
+
+/* Testimonial */
+
+.testimonial-wrapper {
+    background-color: var(--light-grey);
+}
+.testimonial {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 36px;
+}
+.testimonial > h5 {
+        /* font */
+        font-size: 28px;
+        font-weight: 100;
+        font-style: italic;
+}
+aside {
+    text-align: right;
+}
