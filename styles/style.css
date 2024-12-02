@@ -248,18 +248,22 @@ main {
     background-color: var(--light-grey);
 }
 .testimonial {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 36px;
 }
 .testimonial > h5 {
         padding: 0;
-        margin: 8px;
+        margin: 16px 0px;;
         /* font */
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 100;
         font-style: italic;
 }
+h5:last-of-type {
+    margin-bottom: 24px;
+}
 aside {
+    font-size: 20px;
     text-align: right;
 }
