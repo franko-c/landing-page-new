@@ -192,7 +192,7 @@ img {
     max-width: 400px;
 }
 .cta {
-    flex: 0 1 400px;
+    flex: 0 1 420px;
     padding: 16px;
     /* gap: 12px; */
     display: flex;
@@ -235,8 +235,9 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
-    height: 240px;
+    /* height: 240px; */
     width: 300px;
+    padding: 16px;
 }
 
 .boxes-wrapper, .info-box > * {
