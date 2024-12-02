@@ -41,6 +41,7 @@ header {
     color: var(--light-grey);
     font-size: 28px;
     font-weight: 600;
+    margin-right: 12px;
 }
 .storm {
     color: var(--primary-blue);
