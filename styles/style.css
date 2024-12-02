@@ -1,30 +1,3 @@
-/* Typography */
-h1 {
-    padding: 0;
-    margin-bottom: -16px;
-}
-.lighter {
-    color: var(--accent-blue);
-    text-shadow: 1px 1px var(--light-grey);
-}
-.light {
-    color: var(--off-white);
-    margin-bottom: 6px;
-}
-.sub-text {
-    font-size: 14px;
-}
-.standout {
-    color: var(--highlight);
-    font-weight: 800;
-}
-h4 {
-    color: var(--dark-blue);
-}
-* {
-    box-sizing: border-box;
-}
-
 /* Body */
 body {
     font-family: 'Exo 2', -apple-system, system-ui;
@@ -39,18 +12,17 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 900px;
     margin: 0 auto;
-    /* padding: 0px 32px; */
 }
 .normal-wrap {
     flex-flow: wrap row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .wrap-rev {
     flex-flow: wrap-reverse row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .hr {
     border-bottom: 1px solid slateblue;
@@ -68,6 +40,7 @@ header {
     color: var(--light-grey);
     font-size: 28px;
     font-weight: 600;
+    margin-right: auto;
 }
 .storm {
     color: var(--primary-blue);
@@ -114,8 +87,9 @@ img {
 }
 .cta {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     padding: 16px;
+    /* margin-right: auto; */
 }
 button {
     border: none;
@@ -144,13 +118,8 @@ main {
     padding: 16px 32px;
 }
 main h2 {
-    margin-bottom: 0;
-}
-.boxes-wrapper {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0;
+    padding: 0 16px 16px 16px;
 }
 .info-box {
     border-radius: 12px;
@@ -158,8 +127,6 @@ main h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
-    /* height: 240px; */
     width: 280px;
 }
 

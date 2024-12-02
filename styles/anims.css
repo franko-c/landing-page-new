@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* typography */
+
+/* Typography */
+h1 {
+  padding: 0;
+  margin-bottom: -16px;
+}
+.lighter {
+  color: var(--accent-blue);
+  text-shadow: 1px 1px var(--light-grey);
+}
+.light {
+  color: var(--off-white);
+  margin-bottom: 6px;
+}
+.sub-text {
+  font-size: 14px;
+}
+.standout {
+  color: var(--highlight);
+  font-weight: 800;
+}
+h4 {
+  color: var(--dark-blue);
+}
+* {
+  box-sizing: border-box;
+}
+
+/* misc. generated styles + anims */
 :root {
     --primary-blue: #005CFF; /* Bright, energetic blue */
     --secondary-blue: #1F75FE; /* Lighter, subtle blue */
@@ -12,7 +42,6 @@
     --highlight: #FF5C8D; /* A subtle but vibrant accent color */
 }
 
-/* misc, generated styles */
 .rgb-text {
     /* Base styles for the text */
     color: #fff; /* Starting color */
