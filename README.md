@@ -2,7 +2,9 @@
 
 Welcome to my solution for the Landing Page project, as part of the curriculum and guidance provided by [The Odin Project](https://www.theodinproject.com/dashboard).
 
-Feel free to connect with me on Discord: dar1en. I would love to connect with fellow learners and more experienced folks, too.
+If you're curious about building the web, the internet or even personal growth and self development, I strongly recommend you check it out.
+
+Feel free to connect with me on Discord: dar1en. I would love to keep in touch with fellow learners and more experienced folks, too.
 
 ## Focus of the project
 In addition to applying what I have learned from TOP up until now, I also tried to: 
