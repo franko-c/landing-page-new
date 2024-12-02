@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* reusable classes */
+/* commonly re-used classes */
 .wrapper {
     display: flex;
     align-items: center;
@@ -18,17 +18,18 @@ body {
 }
 .normal-wrap {
     flex-flow: wrap row;
-    /* justify-content: space-around; */
 }
 .wrap-rev {
     flex-flow: wrap-reverse row;
-    /* justify-content: space-around; */
 }
 .hr {
     border-bottom: 1px solid slateblue;
     width: 75vw;
     margin: 26px auto 0 auto;
 }
+
+/* end of reusable classes */
+
 /* Header  */
 header {
     /* design */
@@ -40,7 +41,6 @@ header {
     color: var(--light-grey);
     font-size: 28px;
     font-weight: 600;
-    margin-right: auto;
 }
 .storm {
     color: var(--primary-blue);
@@ -65,7 +65,6 @@ header ul li:hover {
     transform: scale(1.2);
 }
 .active {
-    /* text-shadow: 1px 1px var(--off-white); */
     color: var(--accent-blue);
     font-weight: 600;
 }
@@ -110,9 +109,6 @@ button {
 .feature-logo {
     width: 80px;
 }
-main * {
-    /* border: 1px solid green; */
-}
 main {
     text-align: center;
     padding: 16px 32px;
@@ -129,12 +125,6 @@ main h2 {
     align-items: center;
     width: 280px;
 }
-
-.boxes-wrapper, .info-box > * {
-    /* visual aid */
-    /* border: 1px solid green; */
-}
-
 /* Testimonial */
 
 .testimonial-wrapper {
