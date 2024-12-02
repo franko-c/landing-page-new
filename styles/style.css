@@ -47,13 +47,15 @@ body {
 /* reusable containers */
 
 header > .wrapper,
-.hero > .wrapper {
+.hero > .wrapper,
+main > .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 /* Header  */
 header {
